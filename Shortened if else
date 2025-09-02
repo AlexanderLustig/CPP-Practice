@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int Main(){
+
+    
+    int number = 10;
+    
+    number >= 10 ? cout << "Num greater than 10" << endl 
+    : cout << "Num is less than 10" << endl;
+}
