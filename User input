@@ -1,20 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int Main(){
-
+int main() {
     int a;
     int b;
     int c = 20;
     int sum;
 
-    cout << "Please enter first number: " << endl;
+    cout << "Please enter first number: ";
     cin >> a;
-    cout << "Please enter second number: " << endl;
+    cout << "Please enter second number: ";
     cin >> b;
 
     sum = a + b;
 
-    sum >= c ? cout << "Sum is greater than c" << endl 
-        : cout << "Sum is less than c value." << endl;
+    (sum >= c) ? 
+        cout << "Sum is greater than or equal to c" << endl :
+        cout << "Sum is less than c value." << endl;
+
+    return 0;
 }
