@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int Main(){
+
+    display();
+    return 0;
+}
+
+void display(){
+    cout<<"Hello World";
+    return;
+}
+
