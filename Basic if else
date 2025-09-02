@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int Main(){
+
+    
+    int number = 10;
+    
+    if(number >= 10){
+        cout << "Num is greater then 10" << cout;
+    }else{
+        cout << "Num is less then 10" << cout;
+    }
+
+    return 0;
+}
