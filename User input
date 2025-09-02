@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int Main(){
+
+    int a;
+    int b;
+    int c = 20;
+    int sum;
+
+    cout << "Please enter first number: " << endl;
+    cin >> a;
+    cout << "Please enter second number: " << endl;
+    cin >> b;
+
+    sum = a + b;
+
+    sum >= c ? cout << "Sum is greater than c" << endl 
+        : cout << "Sum is less than c value." << endl;
+}
