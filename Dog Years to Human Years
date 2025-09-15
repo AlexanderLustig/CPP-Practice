@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+  
+double dogAge;
+double humanYears;
+void ageCalculations();
+
+double main() {
+
+  cout << "What is your dogs age in years?";
+  cin >> dogAge;
+  ageCalculations();
+  cout << "Your dog's age in human years is : " << dogAge;
+  
+}
+
+void ageCalculations(){
+  if(dogAge <= 2){
+    humanYears = dogAge * 21;
+  }else{
+    humanYears += 42; 
+    dogAge -= 2;
+    humanYears += dogAge * 4;
+  }
+
+  return humanYears;
+
+}
